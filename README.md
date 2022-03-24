@@ -10,10 +10,6 @@ A little Java class to observe a value.
 
 Julian Zecher
 
-## Helper
-
-Max Kammerer
-
 ## License
 
 This class is licensed under the MIT-License.
