@@ -88,7 +88,7 @@ public class ObservableList<T> extends ArrayList<T> {
     @Override
     public boolean removeAll(Collection<?> collection) {
         if (hasListener()) {
-            onListChange.onListChange(new ListChangeListener.ListChange(size(), size()-1, null, (List<Object>) collection, null));
+            onListChange.onListChange(new ListChangeListener.ListChange(size(), size()-collection.size(), null, (List<Object>) collection, null));
         }
         return super.removeAll(collection);
     }
