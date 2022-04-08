@@ -12,4 +12,4 @@ Julian Zecher
 
 ## License
 
-This class is licensed under the MIT-License.
+These classes are licensed under the MIT-License.
